@@ -1,0 +1,18 @@
+
+  
+  .maintext {
+    color: aqua;
+    font-size: 50px;
+padding: 10px;
+position: relative;
+animation-name: moving-text;
+animation-duration: 8s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;    
+}
+  
+  @keyframes moving-text { 
+     0% {top: 0px; left: 0px;}
+     50%{top: 0px; left: 105%;}
+     100%{top: 0px; left: 0px;;}
+  }
